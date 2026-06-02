@@ -1,0 +1,11 @@
+# Comandos para subir ERP Comercial a GitHub
+
+git init
+git add .
+git commit -m "Initial commit ERP Comercial"
+git branch -M main
+git remote add origin https://github.com/TU-USUARIO/erp-comercial.git
+git push -u origin main
+
+# Ejecutar local
+php -S localhost:8000
